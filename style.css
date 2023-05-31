@@ -1,0 +1,169 @@
+* {
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  max-width: 1260px;
+}
+
+
+
+.header {
+  position:fixed;
+  box-sizing: border-box;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.header-list li {
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+  padding-top: 69px;
+}
+
+.content {
+  padding: 0 px;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(./resources/img-mission-background.jpg);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mission-text {
+  width: 100%;
+  padding: 0;
+}
+
+
+/* Try 2 - noticed i had reversed height and width of images */
+
+.monthly-tea {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.monthly-tea-text {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.tea-images img {
+  max-height: 200px;
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  flex: 300px;
+ }
+
+ .tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+ /* 1st attempt locations; flex not working as expected */
+
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;  
+  background-image: url(resources/img-locations-background.jpg);
+  background-size: cover;
+  }
+
+.locations h2{
+  color: black;
+  margin: 0 auto;
+  width: 100%;
+  background-color: transparent;
+  }
+
+.locations h3{
+  padding-top: 10px;
+  background-color: transparent;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  background-color: transparent;
+}
+
+
+.box {
+  width: 300px;
+  height: 250px;
+  margin: 0px 20px;
+  opacity: 1; 
+  background-color: black;
+  justify-content:center;
+  align-items: center;
+  flex: 300px;
+}
+
+.box-container p {
+  background-color: transparent;
+}
+
+
+.contact {
+  width: 1260px;
+  height: 200px;
+}
+
+footer h5 {
+ text-align: left;
+ margin: 20px;
+}
